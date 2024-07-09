@@ -1,0 +1,21 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "concurrently": "^6.5.1",
+    "csv-writer": "^1.6.0",
+    "pdfkit": "^0.15.0",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
