@@ -1,0 +1,89 @@
+/* frontend/src/components/css/EditManufacturingRange.css */
+
+body {
+    background-color: #e3f2fd; /* Light blue background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.edit-manufacturing-range-container {
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.edit-manufacturing-range-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0d47a1; /* Dark blue text */
+}
+
+.edit-manufacturing-range-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-manufacturing-range-input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.edit-manufacturing-range-button,
+.add-operation-button,
+.remove-operation-button {
+    padding: 10px;
+    background-color: #0d47a1; /* Dark blue background */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-manufacturing-range-button:hover,
+.add-operation-button:hover,
+.remove-operation-button:hover {
+    background-color: #1565c0; /* Lighter blue on hover */
+}
+
+.remove-operation-button {
+    background-color: transparent; /* Transparent background for the icon button */
+    color: #d32f2f; /* Red color for the icon */
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-operation-button:hover {
+    color: #f44336; /* Lighter red on hover */
+}
+
+.add-operation-button {
+    background-color: #1565c0; /* Lighter blue for the add button */
+    margin-top: 10px;
+}
+
+.operation-row {
+    display: flex;
+    align-items: center;
+}
+
+.operation-row select,
+.operation-row input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.separator {
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}

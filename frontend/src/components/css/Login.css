@@ -1,0 +1,66 @@
+/* frontend/src/components/Login.css */
+
+body {
+    background-color: #e3f2fd; /* Fond bleu clair */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+    padding: 0;
+}
+
+.login-container {
+    padding: 40px; /* Augmenter le padding pour un peu plus de remplissage */
+    background-color: #ffffff; /* Fond blanc pour le conteneur */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Augmenter la largeur maximale */
+    width: 100%; /* S'assurer que le conteneur prend toute la largeur possible */
+    text-align: center; /* Centrer le texte */
+}
+
+.login-title {
+    font-size: 28px; /* Augmenter la taille de la police */
+    font-weight: bold;
+    margin-bottom: 30px; /* Augmenter la marge inférieure */
+    color: #0d47a1; /* Texte bleu foncé */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    padding: 15px; /* Augmenter le padding pour les champs d'entrée */
+    margin: 15px 0; /* Augmenter la marge verticale */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Augmenter la taille de la police */
+}
+
+.login-button {
+    padding: 15px; /* Augmenter le padding du bouton */
+    background-color: #0d47a1; /* Fond bleu foncé */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Augmenter la taille de la police */
+}
+
+.login-button:hover {
+    background-color: #1565c0; /* Fond bleu plus clair au survol */
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,135 @@
+.sidebar {
+    background-color: #0d47a1;
+    color: #ffffff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.sidebar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.sidebar-separator {
+    width: 80%;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.sidebar-link,
+.sidebar-button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 80%;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.sidebar-link:hover,
+.sidebar-button:hover {
+    background-color: #1565c0;
+    border-color: #ffffff;
+}
+
+.sidebar-button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.sidebar-button:hover {
+    background-color: #1565c0;
+    border-color: #ffffff;
+}
+
+.sidebar-logout {
+    background-color: #d32f2f;
+    color: #ffffff;
+    width: calc(100% - 40px);
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px 0 40px 0;
+    cursor: pointer;
+    align-self: center;
+}
+
+.sidebar-logout:hover {
+    background-color: #f44336;
+}
+
+.sidebar-dropdown {
+    width: 100%;
+}
+
+.sidebar-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.sidebar-sublink {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    width: 70%;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.sidebar-sublink:hover {
+    background-color: #1565c0;
+    border-color: #ffffff;
+}
+
+.dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    appearance: none; /* Enlever la flèche par défaut */
+}
+
+.dropdown-toggle:hover {
+    background-color: #1565c0;
+    border-color: #ffffff;
+}

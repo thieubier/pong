@@ -1,0 +1,75 @@
+/* frontend/src/components/css/ManufacturingRangeDetail.css */
+
+.manufacturing-range-detail-page {
+    padding: 20px;
+}
+
+.manufacturing-range-detail-back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.manufacturing-range-detail-back-button:hover {
+    background-color: #1565c0;
+}
+
+.manufacturing-range-detail-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.manufacturing-range-detail-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0d47a1;
+}
+
+.manufacturing-range-detail-operations {
+    margin-top: 20px;
+}
+
+.manufacturing-range-detail-operations table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manufacturing-range-detail-operations th,
+.manufacturing-range-detail-operations td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.manufacturing-range-detail-operations th {
+    background-color: #f4f4f4;
+}
+
+.manufacturing-range-detail-delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.manufacturing-range-detail-delete-button:hover {
+    background-color: #f44336;
+}
+
+.manufacturing-range-detail-delete-button .fa-trash {
+    margin-right: 8px; /* Ajoute un espace entre l'icône et le texte */
+}

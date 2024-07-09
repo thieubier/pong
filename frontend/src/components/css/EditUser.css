@@ -1,0 +1,104 @@
+/* frontend/src/components/css/EditUser.css */
+
+.edit-user-page {
+    padding: 20px;
+}
+
+.edit-user-back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.edit-user-back-button:hover {
+    background-color: #1565c0;
+}
+
+.edit-user-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.edit-user-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0d47a1;
+    text-align: center;
+}
+
+.edit-user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-user-input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.edit-user-button {
+    padding: 10px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.edit-user-button:hover {
+    background-color: #1565c0;
+}
+
+.logout-confirm-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.logout-confirm-popup button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-confirm-popup button:first-child {
+    background-color: #0d47a1;
+    color: #ffffff;
+}
+
+.logout-confirm-popup button:first-child:hover {
+    background-color: #1565c0;
+}
+
+.logout-confirm-popup button:last-child {
+    background-color: #d32f2f;
+    color: #ffffff;
+}
+
+.logout-confirm-popup button:last-child:hover {
+    background-color: #f44336;
+}

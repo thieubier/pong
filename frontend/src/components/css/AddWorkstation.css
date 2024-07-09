@@ -1,0 +1,60 @@
+/* frontend/src/components/css/AddWorkstation.css */
+
+body {
+    background-color: #e3f2fd; /* Fond bleu clair */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.add-workstation-container {
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc pour le conteneur */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.add-workstation-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0d47a1; /* Texte bleu foncé */
+}
+
+.add-workstation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-workstation-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.machine-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.add-workstation-button {
+    padding: 10px 20px;
+    background-color: #0d47a1; /* Fond bleu foncé */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.add-workstation-button:hover {
+    background-color: #1565c0; /* Fond bleu plus clair au survol */
+}

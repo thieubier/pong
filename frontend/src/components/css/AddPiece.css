@@ -1,0 +1,88 @@
+/* frontend/src/components/AddPiece.css */
+
+.add-piece-container {
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc pour le conteneur */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.add-piece-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0d47a1; /* Texte bleu foncé */
+}
+
+.add-piece-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-piece-input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-piece-button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #0d47a1; /* Fond bleu foncé */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-piece-button:hover {
+    background-color: #1565c0; /* Fond bleu plus clair au survol */
+}
+
+.add-component-button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #688fe1;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.component-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remove-component-button {
+    background-color: transparent;
+    border: none;
+    color: #d32f2f;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.remove-component-button:hover {
+    color: #f44336;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0; /* Ajouter de l'espace autour du séparateur */
+}

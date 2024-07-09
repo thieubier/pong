@@ -1,0 +1,151 @@
+/* frontend/src/components/PieceList.css */
+
+body {
+    background-color: #e3f2fd; /* Fond bleu clair */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.piece-list-container {
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc pour le conteneur */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.piece-list-background {
+    background-color: #e3f2fd; /* Fond bleu clair pour le conteneur */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.piece-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0d47a1; /* Texte bleu foncé */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.piece-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.piece-table th,
+.piece-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle; /* Centre le contenu verticalement */
+}
+
+.piece-table th {
+    background-color: #f1f1f1;
+}
+
+.piece-table td.actions {
+    text-align: center; /* Centre le contenu horizontalement */
+}
+
+.add-piece-button,
+.refresh-button,
+.detail-button,
+.delete-button {
+    padding: 10px 20px;
+    background-color: #0d47a1; /* Fond bleu foncé */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.add-piece-button:hover,
+.refresh-button:hover,
+.detail-button:hover,
+.delete-button:hover {
+    background-color: #1565c0; /* Fond bleu plus clair au survol */
+}
+
+.refresh-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0d47a1; /* Fond bleu foncé */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.refresh-button:hover {
+    background-color: #1565c0; /* Fond bleu plus clair au survol */
+}
+
+.detail-button {
+    background-color: transparent; /* Fond transparent pour l'icône */
+    color: #0d47a1; /* Couleur bleu pour l'icône */
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.detail-button:hover {
+    color: #1565c0; /* Bleu plus clair au survol */
+}
+
+.delete-button {
+    background-color: transparent; /* Fond transparent pour l'icône */
+    color: #d32f2f; /* Couleur rouge pour l'icône */
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    color: #f44336; /* Rouge plus clair au survol */
+}
+
+/* Ajout des classes pour les couleurs des types */
+.type-color-1 {
+    background-color: #ffcccc; /* Fond rouge clair */
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.type-color-2 {
+    background-color: #ccffcc; /* Fond vert clair */
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.type-color-3 {
+    background-color: #ccccff; /* Fond bleu clair */
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.type-color-default {
+    background-color: #e0e0e0; /* Fond gris clair */
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,79 @@
+/* frontend/src/components/css/PieceDetail.css */
+
+.piece-detail-page {
+    padding: 20px;
+    background-color: #e3f2fd; /* Fond bleu clair */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Permet de positionner le bouton de retour */
+}
+
+.piece-detail-back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.piece-detail-back-button:hover {
+    background-color: #1565c0;
+}
+
+.piece-detail-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Augmenter la largeur maximale */
+    width: 100%;
+    text-align: left;
+    margin-top: 60px; /* Ajoute un espacement pour le bouton de retour */
+}
+
+.piece-detail-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0d47a1;
+}
+
+.piece-detail-components {
+    margin-top: 20px;
+}
+
+.piece-detail-components table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.piece-detail-components th,
+.piece-detail-components td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.piece-detail-components th {
+    background-color: #f4f4f4;
+}
+
+.piece-detail-delete-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #d32f2f; /* Fond rouge */
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.piece-detail-delete-button:hover {
+    background-color: #f44336; /* Fond rouge plus clair au survol */
+}

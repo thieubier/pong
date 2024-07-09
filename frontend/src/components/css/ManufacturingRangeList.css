@@ -1,0 +1,94 @@
+.manufacturing-range-list-background {
+    background-color: #e3f2fd; /* Fond bleu clair */
+    padding: 20px;
+    min-height: 100vh; /* Pour s'assurer que le fond couvre toute la hauteur */
+}
+
+.manufacturing-range-list-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.manufacturing-range-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0d47a1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.manufacturing-range-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manufacturing-range-table th,
+.manufacturing-range-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.manufacturing-range-table th {
+    background-color: #f1f1f1;
+}
+
+.manufacturing-range-table td.actions {
+    text-align: center;
+}
+
+.add-manufacturing-range-button,
+.refresh-button,
+.detail-button,
+.delete-button {
+    padding: 10px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.add-manufacturing-range-button:hover,
+.refresh-button:hover,
+.detail-button:hover,
+.delete-button:hover {
+    background-color: #1565c0;
+}
+
+.detail-button {
+    background-color: transparent;
+    color: #0d47a1;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.detail-button:hover {
+    color: #1565c0;
+}
+
+.delete-button {
+    background-color: transparent;
+    color: #d32f2f;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    color: #f44336;
+}

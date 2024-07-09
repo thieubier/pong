@@ -1,0 +1,34 @@
+/* frontend/src/App.css */
+
+body {
+  background-color: #e3f2fd; /* Fond bleu clair */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+  background-color: #ffffff; /* Fond blanc pour le conteneur */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.content {
+  margin-left: 200px; /* Espace pour la sidebar */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles spécifiques à la page de login */
+.login-page {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+  padding: 0;
+}
